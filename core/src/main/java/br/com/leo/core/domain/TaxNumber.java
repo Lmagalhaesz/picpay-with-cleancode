@@ -14,7 +14,7 @@ public class TaxNumber {
     }
 
     public void setValue(String value) throws Exception {
-        if (!isValid(value)) throw new TaxNumberException(ErrorCodeEnum.ON0001.getMessage(), ErrorCodeEnum.ON0001.getCode());
+        if (!isValid(value)) throw new TaxNumberException(ErrorCodeEnum.ON0001.getMsg(), ErrorCodeEnum.ON0001.getCode());
         this.value = value;
     }
 

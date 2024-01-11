@@ -8,7 +8,11 @@ public enum ErrorCodeEnum {
 
     BL0001("Balance error!", "BL-0001"),
 
-    PN0001("Pin is not valid!", "PN-0001")
+    PN0001("Pin is not valid!", "PN-0001"),
+
+    EM0001("Email is not valid!", "EM-0001"),
+
+    TX0001("Tax Number is not valid!", "TX-0001")
 
     ;
 
